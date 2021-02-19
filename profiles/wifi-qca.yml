@@ -1,8 +1,8 @@
 ---
-description: Add the wifi support from OpenWrt HEAD
+description: Add the wifi support for qca from OpenWrt HEAD
 feeds:
-  - name: wifi
-    path: ../../feeds/wifi-trunk
+  - name: wifi-qca
+    path: ../../feeds/wifi-qca-trunk
 packages:
   - ath10k-firmware-qca4019-ct-htt
   - ath10k-firmware-qca9888-ct-htt
