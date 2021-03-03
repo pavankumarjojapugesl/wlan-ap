@@ -65,6 +65,7 @@ packages:
   - miniupnpd
   - mxml
   - iputils-arping
+  - luci
 
 diffconfig: |
   CONFIG_OPENSSL_ENGINE=y
